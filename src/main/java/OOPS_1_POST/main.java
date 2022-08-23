@@ -6,6 +6,8 @@ public class main {
 
     public static void main(String[] args){
 
+        /*
+
         SimpleCalculator calculator = new SimpleCalculator(12,13,"this"); // constuctor is created when the object is initiases
 
 
@@ -15,6 +17,18 @@ public class main {
         System.out.println("subtract = "+calculator.subtractionresult());
         System.out.println("Multiply = "+ calculator.mulitiplicationresult());
         System.out.println("Division = "+ calculator.divisionresult());
+
+        */
+
+
+        ScientificCalculator calculator = new ScientificCalculator();
+
+        calculator.setFirstNumber(20);
+        System.out.println(calculator.getFirstNumber());
+
+        System.out.println(calculator.Calculatecubes());
+        System.out.println(calculator.Calculatesquares());
+
 
     }
 
