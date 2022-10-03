@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2022-10-03T04:48:16.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="M7ee7e3p6NvJ6cvFcgXH" version="20.3.7" type="github">
+  <diagram id="7TMVyQGcCJHrwtTxQVLm" name="Page-1">
+    <mxGraphModel dx="981" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-1" value="Exceptions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3YZ2U3cMtncswMwpF-3-3" target="R3YZ2U3cMtncswMwpF-3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-3" value="Check if a number is prime or not" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R3YZ2U3cMtncswMwpF-3-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="379.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-4" value="int&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-6" value="Function(n)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-8" value="&lt;h1&gt;ERRORS&lt;/h1&gt;&lt;div&gt;Errors are beyond the control of a programmer and we should not try to handle the errors&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="280" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-9" value="&lt;h1&gt;Exceptions&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exception is a method which has a object, state , descitpion of the exception&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-14" value="&lt;ol&gt;&lt;li&gt;&lt;sub&gt;Runtime Exception - Happens due to programming error&lt;/sub&gt;&lt;/li&gt;&lt;li&gt;&lt;sub&gt;Illegal Argument Exception - API issues&lt;/sub&gt;&lt;/li&gt;&lt;li&gt;&lt;sub&gt;NullPointer Exception - not initialized a varialbe&lt;/sub&gt;&lt;/li&gt;&lt;li&gt;&lt;sub&gt;ArrayIndexoutofBounds - Arraysizeis maximum&lt;/sub&gt;&lt;/li&gt;&lt;li&gt;&lt;sub&gt;Arithmetic Exception - any Arithmetic problems&lt;/sub&gt;&lt;/li&gt;&lt;li&gt;&lt;sub&gt;IO Exception - Filenotfod&lt;/sub&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R3YZ2U3cMtncswMwpF-3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R3YZ2U3cMtncswMwpF-3-15" target="R3YZ2U3cMtncswMwpF-3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-15" value="Throwable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-17" value="Error" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R3YZ2U3cMtncswMwpF-3-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R3YZ2U3cMtncswMwpF-3-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-18" value="Exception" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-22" value="RuntimeException" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3YZ2U3cMtncswMwpF-3-23" value="IOException" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
